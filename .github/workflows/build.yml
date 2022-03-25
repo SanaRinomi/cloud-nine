@@ -2,7 +2,7 @@ name: 'Build'
 
 on:
   push:
-    branches: *
+    branches: [main]
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build --no-daemon --info
       - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2.2.2
-      with:
-        path: build/libs/**.jar
+        uses: actions/upload-artifact@v2.2.2
+        with:
+          path: build/libs/**.jar
