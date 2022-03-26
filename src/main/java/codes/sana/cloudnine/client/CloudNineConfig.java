@@ -14,7 +14,7 @@ public class CloudNineConfig {
         CloudOffset = builder
                         .comment("Set the offset from the clouds default height of 128")
                         .translation("cloudnine.config.cloudOffset.title")
-                        .defineInRange("cloudnine.config.cloudOffset.value", 0, -100, 100);
+                        .defineInRange("cloudnine.config.cloudOffset.value", 0, -196, 192);
         return builder.build();
     }
 }

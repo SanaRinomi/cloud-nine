@@ -57,7 +57,7 @@ public class CloudNineConfigScreen extends Screen {
         this.optionsRowList.addBig(new SliderPercentageOption(
             "cloudnine.config.cloudOffset.title",
             // Range: 0 to width of game window
-            -100.0, 100.0,
+            -196.0, 192.0,
             // This is an integer option, so allow whole steps only
             1.0F,
             // Getter and setter are similar to those in BooleanOption
