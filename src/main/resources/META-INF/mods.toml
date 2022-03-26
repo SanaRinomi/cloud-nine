@@ -31,9 +31,11 @@ logoFile="cloudnine.png" #optional
 # A text field displayed in the mod UI
 authors="Sana Rinomi" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description='''
+description="""
 Sana's attempt at changing the cloud height
-'''
+
+Release 1.1 changes by AbiDrew & Mari023 on GitHub
+"""
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.cloudnine]] #optional
     # the modid of the dependency
